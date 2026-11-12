@@ -1,4 +1,4 @@
-## Interface: 30300
+## Interface: 11509
 ## Title: AstraHunter
 ## Author: Ulverius
 ## Version: 0.1
