@@ -13,4 +13,15 @@ AstraHunter is an all-in-one Hunter companion addon for WoW Forever.
 
 Pre-Alpha
 
+## Version 1.0
+
+- Pet Happiness Display
+- Ammo Counter
+- Rare Beast Alerts
+
+## Future Versions
+
+- Gold Per Hour Tracking
+- Stable Manager
+- Taming Information
 
