@@ -8,9 +8,15 @@ SlashCmdList["ASTRAHUNTER"] = function()
     DEFAULT_CHAT_FRAME:AddMessage("Class: " .. class)
 
     if UnitExists("pet") then
+
         DEFAULT_CHAT_FRAME:AddMessage("Pet: Active")
+
+        DEFAULT_CHAT_FRAME:AddMessage("GetPetHappiness = " .. tostring(GetPetHappiness))
+
     else
+
         DEFAULT_CHAT_FRAME:AddMessage("Pet: Not Summoned")
+
     end
 
 end
