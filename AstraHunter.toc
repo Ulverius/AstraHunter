@@ -1,7 +1,7 @@
-## Interface: 11509
+## Interface: 16001
 ## Title: AstraHunter
+## Notes: Hunter companion addon for WoW Forever
 ## Author: Ulverius
 ## Version: 0.1
 
 AstraHunter.lua
-

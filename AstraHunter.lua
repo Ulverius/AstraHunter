@@ -1,1 +1,1 @@
-print("AstraHunter loaded!")
+DEFAULT_CHAT_FRAME:AddMessage("|cff00ff00AstraHunter loaded!|r")
