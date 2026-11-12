@@ -9,9 +9,10 @@ SlashCmdList["ASTRAHUNTER"] = function()
 
     if UnitExists("pet") then
 
-        DEFAULT_CHAT_FRAME:AddMessage("Pet: Active")
+        local petName = UnitName("pet")
 
-        DEFAULT_CHAT_FRAME:AddMessage("GetPetHappiness = " .. tostring(GetPetHappiness))
+        DEFAULT_CHAT_FRAME:AddMessage("Pet: Active")
+        DEFAULT_CHAT_FRAME:AddMessage("Pet Name: " .. petName)
 
     else
 
