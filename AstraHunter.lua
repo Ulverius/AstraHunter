@@ -1,7 +1,11 @@
 SLASH_ASTRAHUNTER1 = "/astrahunter"
 
 SlashCmdList["ASTRAHUNTER"] = function()
-    DEFAULT_CHAT_FRAME:AddMessage("|cff00ff00AstraHunter is running.|r")
+
+    local _, class = UnitClass("player")
+
+    DEFAULT_CHAT_FRAME:AddMessage("Class: " .. class)
+
 end
 
 local _, class = UnitClass("player")
