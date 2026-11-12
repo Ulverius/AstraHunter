@@ -1,1 +1,7 @@
+## Interface: 30300
+## Title: AstraHunter
+## Author: Ulverius
+## Version: 0.1
+
+AstraHunter.lua
 
