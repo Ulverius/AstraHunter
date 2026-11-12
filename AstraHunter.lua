@@ -10,9 +10,21 @@ SlashCmdList["ASTRAHUNTER"] = function()
     if UnitExists("pet") then
 
         local petName = UnitName("pet")
+        local petLevel = UnitLevel("pet")
 
         DEFAULT_CHAT_FRAME:AddMessage("Pet: Active")
         DEFAULT_CHAT_FRAME:AddMessage("Pet Name: " .. petName)
+        DEFAULT_CHAT_FRAME:AddMessage("Pet Level: " .. petLevel)
+
+        local petHealth = UnitHealth("pet")
+        local petHealthMax = UnitHealthMax("pet")
+
+        DEFAULT_CHAT_FRAME:AddMessage(
+            "Pet Health: " ..
+            petHealth ..
+            "/" ..
+            petHealthMax
+        )
 
     else
 
